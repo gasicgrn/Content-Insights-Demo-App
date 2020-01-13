@@ -7,14 +7,26 @@
 //
 
 import UIKit
+import ContentInsightTracker
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    // Application public CI object
+    var contentInsights: ContentInsights!
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        // CI Default Initialization to server (config: .toCIServer, domainID: "?? - domainID", isLog: false)
+//        self.contentInsights = ContentInsights.shared(domainID: "?? - domainID")
+        // CI Initialization to server
+        self.contentInsights = ContentInsights.shared(config: .toCIServer, domainID: "?? - domainID", isLog: false)
+        // CI Initialization to local host
+//        self.contentInsights = ContentInsights.shared(config: .toLocalHost, domainID: "?? - domainID", isLog: false)
+
         return true
     }
 
