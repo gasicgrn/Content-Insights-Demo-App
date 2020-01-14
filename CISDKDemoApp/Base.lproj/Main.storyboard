@@ -32,18 +32,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Content Insights SDK - DEMO APP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f91-EU-mqI">
-                                <rect key="frame" x="20" y="154" width="374" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5l-VQ-XdR">
-                                <rect key="frame" x="135" y="397" width="144" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="135" y="378" width="144" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Article 1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -52,10 +45,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PzW-kP-Jqa">
-                                <rect key="frame" x="135" y="460" width="144" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="135" y="459" width="144" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Article 2">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -63,6 +56,20 @@
                                     <segue destination="Bld-rY-LpZ" kind="show" id="2WJ-c9-SMH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CONTENT INSIGHTS SDK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f91-EU-mqI">
+                                <rect key="frame" x="20" y="144" width="374" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Demo App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xNF-Bw-jUB">
+                                <rect key="frame" x="20" y="188" width="374" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -118,11 +125,11 @@
                                 <rect key="frame" x="9" y="126" width="396" height="856"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Morbi placerat velit purus, id molestie lectus tincidunt vel. Fusce consectetur urna nec felis euismod placerat. Nulla ac nunc mauris. Integer eros lorem, venenatis et augue facilisis, vulputate laoreet augue. Duis tempus pulvinar bibendum. Nullam nibh massa, auctor vel magna vitae, feugiat lacinia neque. Vivamus id velit dui.
+                                <string key="text">Morbi placerat velit purus, id molestie lectus tincidunt vel. Fusce consectetur urna nec felis euismod placerat. Nulla ac nunc mauris. Integer eros lorem, venenatis et augue facilisis, vulputate laoreet augue. Duis tempus pulvinar bibendum. Nullam nibh massa, auctor vel magna vitae, feugiat lacinia neque. Vivamus id velit dui.
         
         Nullam et diam neque. Sed efficitur sollicitudin tortor eget cursus. Donec a mi pulvinar, iaculis nunc non, laoreet quam. Maecenas sed ante tristique, egestas urna et, tincidunt tellus. Sed pulvinar tortor eget lacinia condimentum. Duis libero nisl, faucibus id orci ut, venenatis efficitur risus. Maecenas metus mi, finibus ac erat eget, ultricies vestibulum ipsum. Vivamus in nisi enim.
 
-        Pellentesque ac nisl tempor nisi rhoncus hendrerit. Mauris vitae eros eget elit dignissim congue. Fusce tortor nisi, molestie pretium pulvinar vestibulum, gravida vel risus. Nulla in finibus leo, non tincidunt magna. Aliquam blandit ultrices tellus. Cras commodo, ligula mollis interdum aliquet, nulla tortor dignissim nisl, feugiat vulputate erat quam nec nibh.</mutableString>
+        Pellentesque ac nisl tempor nisi rhoncus hendrerit. Mauris vitae eros eget elit dignissim congue. Fusce tortor nisi, molestie pretium pulvinar vestibulum, gravida vel risus. Nulla in finibus leo, non tincidunt magna. Aliquam blandit ultrices tellus. Cras commodo, ligula mollis interdum aliquet, nulla tortor dignissim nisl, feugiat vulputate erat quam nec nibh.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

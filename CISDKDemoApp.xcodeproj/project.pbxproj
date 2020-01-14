@@ -14,19 +14,19 @@
 		5304985F23BAC8CB0076BD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5304985E23BAC8CB0076BD02 /* Assets.xcassets */; };
 		5304986223BAC8CB0076BD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5304986023BAC8CB0076BD02 /* LaunchScreen.storyboard */; };
 		5357F3EA23CDD578004DB18D /* Article1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357F3E923CDD578004DB18D /* Article1ViewController.swift */; };
-		53B15D8823CE2964003CCB6F /* ContentInsightTracker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B15D8723CE2964003CCB6F /* ContentInsightTracker.xcframework */; };
-		53B15D8923CE2964003CCB6F /* ContentInsightTracker.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53B15D8723CE2964003CCB6F /* ContentInsightTracker.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		53B15D8C23CE2A62003CCB6F /* Article2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B15D8B23CE2A62003CCB6F /* Article2ViewController.swift */; };
+		53B15D8E23CE3449003CCB6F /* ContentInsightTracker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B15D8D23CE3449003CCB6F /* ContentInsightTracker.xcframework */; };
+		53B15D8F23CE3449003CCB6F /* ContentInsightTracker.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53B15D8D23CE3449003CCB6F /* ContentInsightTracker.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		53B15D8A23CE2965003CCB6F /* Embed Frameworks */ = {
+		53B15D9023CE3449003CCB6F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				53B15D8923CE2964003CCB6F /* ContentInsightTracker.xcframework in Embed Frameworks */,
+				53B15D8F23CE3449003CCB6F /* ContentInsightTracker.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,8 +43,8 @@
 		5304986123BAC8CB0076BD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5304986323BAC8CB0076BD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5357F3E923CDD578004DB18D /* Article1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article1ViewController.swift; sourceTree = "<group>"; };
-		53B15D8723CE2964003CCB6F /* ContentInsightTracker.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ContentInsightTracker.xcframework; sourceTree = "<group>"; };
 		53B15D8B23CE2A62003CCB6F /* Article2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article2ViewController.swift; sourceTree = "<group>"; };
+		53B15D8D23CE3449003CCB6F /* ContentInsightTracker.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ContentInsightTracker.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53B15D8823CE2964003CCB6F /* ContentInsightTracker.xcframework in Frameworks */,
+				53B15D8E23CE3449003CCB6F /* ContentInsightTracker.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 		53D5187C23CCE6CC00636ACA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53B15D8723CE2964003CCB6F /* ContentInsightTracker.xcframework */,
+				53B15D8D23CE3449003CCB6F /* ContentInsightTracker.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,7 +110,7 @@
 				5304984E23BAC8C40076BD02 /* Sources */,
 				5304984F23BAC8C40076BD02 /* Frameworks */,
 				5304985023BAC8C40076BD02 /* Resources */,
-				53B15D8A23CE2965003CCB6F /* Embed Frameworks */,
+				53B15D9023CE3449003CCB6F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
