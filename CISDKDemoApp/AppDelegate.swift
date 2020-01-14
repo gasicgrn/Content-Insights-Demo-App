@@ -7,12 +7,15 @@
 //
 
 import UIKit
-import ContentInsightTracker
+//import ContentInsightTracker
 
+import ContentInsightTracker
 
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    var window: UIWindow?
 
     // Application public CI object
     var contentInsights: ContentInsights!
@@ -23,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // CI Default Initialization to server (config: .toCIServer, domainID: "?? - domainID", isLog: false)
 //        self.contentInsights = ContentInsights.shared(domainID: "?? - domainID")
         // CI Initialization to server
-        self.contentInsights = ContentInsights.shared(config: .toCIServer, domainID: "?? - domainID", isLog: false)
+        self.contentInsights = ContentInsights.shared(config: .toCIServer, domainID: "?? - domainID", isLog: true)
         // CI Initialization to local host
 //        self.contentInsights = ContentInsights.shared(config: .toLocalHost, domainID: "?? - domainID", isLog: false)
 

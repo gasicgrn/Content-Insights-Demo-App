@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,25 @@
 		5304985D23BAC8C40076BD02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5304985B23BAC8C40076BD02 /* Main.storyboard */; };
 		5304985F23BAC8CB0076BD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5304985E23BAC8CB0076BD02 /* Assets.xcassets */; };
 		5304986223BAC8CB0076BD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5304986023BAC8CB0076BD02 /* LaunchScreen.storyboard */; };
+		5357F3EA23CDD578004DB18D /* Article1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357F3E923CDD578004DB18D /* Article1ViewController.swift */; };
+		53B15D8823CE2964003CCB6F /* ContentInsightTracker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B15D8723CE2964003CCB6F /* ContentInsightTracker.xcframework */; };
+		53B15D8923CE2964003CCB6F /* ContentInsightTracker.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53B15D8723CE2964003CCB6F /* ContentInsightTracker.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		53B15D8C23CE2A62003CCB6F /* Article2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B15D8B23CE2A62003CCB6F /* Article2ViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53B15D8A23CE2965003CCB6F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				53B15D8923CE2964003CCB6F /* ContentInsightTracker.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5304985223BAC8C40076BD02 /* CISDKDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CISDKDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +42,9 @@
 		5304985E23BAC8CB0076BD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5304986123BAC8CB0076BD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5304986323BAC8CB0076BD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5357F3E923CDD578004DB18D /* Article1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article1ViewController.swift; sourceTree = "<group>"; };
+		53B15D8723CE2964003CCB6F /* ContentInsightTracker.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ContentInsightTracker.xcframework; sourceTree = "<group>"; };
+		53B15D8B23CE2A62003CCB6F /* Article2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B15D8823CE2964003CCB6F /* ContentInsightTracker.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +64,7 @@
 			children = (
 				5304985423BAC8C40076BD02 /* CISDKDemoApp */,
 				5304985323BAC8C40076BD02 /* Products */,
+				53D5187C23CCE6CC00636ACA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +82,22 @@
 				5304985523BAC8C40076BD02 /* AppDelegate.swift */,
 				5304985723BAC8C40076BD02 /* SceneDelegate.swift */,
 				5304985923BAC8C40076BD02 /* ViewController.swift */,
+				5357F3E923CDD578004DB18D /* Article1ViewController.swift */,
+				53B15D8B23CE2A62003CCB6F /* Article2ViewController.swift */,
 				5304985B23BAC8C40076BD02 /* Main.storyboard */,
 				5304985E23BAC8CB0076BD02 /* Assets.xcassets */,
 				5304986023BAC8CB0076BD02 /* LaunchScreen.storyboard */,
 				5304986323BAC8CB0076BD02 /* Info.plist */,
 			);
 			path = CISDKDemoApp;
+			sourceTree = "<group>";
+		};
+		53D5187C23CCE6CC00636ACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53B15D8723CE2964003CCB6F /* ContentInsightTracker.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +110,7 @@
 				5304984E23BAC8C40076BD02 /* Sources */,
 				5304984F23BAC8C40076BD02 /* Frameworks */,
 				5304985023BAC8C40076BD02 /* Resources */,
+				53B15D8A23CE2965003CCB6F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,9 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B15D8C23CE2A62003CCB6F /* Article2ViewController.swift in Sources */,
 				5304985A23BAC8C40076BD02 /* ViewController.swift in Sources */,
 				5304985623BAC8C40076BD02 /* AppDelegate.swift in Sources */,
 				5304985823BAC8C40076BD02 /* SceneDelegate.swift in Sources */,
+				5357F3EA23CDD578004DB18D /* Article1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
