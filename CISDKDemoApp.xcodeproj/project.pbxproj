@@ -13,20 +13,22 @@
 		5304985D23BAC8C40076BD02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5304985B23BAC8C40076BD02 /* Main.storyboard */; };
 		5304985F23BAC8CB0076BD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5304985E23BAC8CB0076BD02 /* Assets.xcassets */; };
 		5304986223BAC8CB0076BD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5304986023BAC8CB0076BD02 /* LaunchScreen.storyboard */; };
+		5321C4AC2456E93200178833 /* Article3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321C4AB2456E93200178833 /* Article3TableViewController.swift */; };
+		5321C4AD2456E93200178833 /* Article3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321C4AB2456E93200178833 /* Article3TableViewController.swift */; };
+		5321C4AF2456ECB500178833 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321C4AE2456ECB500178833 /* MyTableViewCell.swift */; };
+		5321C4B02456ECB500178833 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321C4AE2456ECB500178833 /* MyTableViewCell.swift */; };
+		5321C4B8245770B500178833 /* ContentInsightTracker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5321C4B7245770B500178833 /* ContentInsightTracker.xcframework */; };
+		5321C4B9245770B500178833 /* ContentInsightTracker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5321C4B7245770B500178833 /* ContentInsightTracker.xcframework */; };
 		5357F3EA23CDD578004DB18D /* Article1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357F3E923CDD578004DB18D /* Article1ViewController.swift */; };
 		53B15D8C23CE2A62003CCB6F /* Article2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B15D8B23CE2A62003CCB6F /* Article2ViewController.swift */; };
-		53B15D8E23CE3449003CCB6F /* ContentInsightTracker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B15D8D23CE3449003CCB6F /* ContentInsightTracker.xcframework */; };
-		53B15D8F23CE3449003CCB6F /* ContentInsightTracker.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53B15D8D23CE3449003CCB6F /* ContentInsightTracker.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		53EA735723E0A5E20065738F /* Article2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B15D8B23CE2A62003CCB6F /* Article2ViewController.swift */; };
 		53EA735823E0A5E20065738F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5304985923BAC8C40076BD02 /* ViewController.swift */; };
 		53EA735923E0A5E20065738F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5304985523BAC8C40076BD02 /* AppDelegate.swift */; };
 		53EA735A23E0A5E20065738F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5304985723BAC8C40076BD02 /* SceneDelegate.swift */; };
 		53EA735B23E0A5E20065738F /* Article1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357F3E923CDD578004DB18D /* Article1ViewController.swift */; };
-		53EA735D23E0A5E20065738F /* ContentInsightTracker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B15D8D23CE3449003CCB6F /* ContentInsightTracker.xcframework */; };
 		53EA735F23E0A5E20065738F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5304986023BAC8CB0076BD02 /* LaunchScreen.storyboard */; };
 		53EA736023E0A5E20065738F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5304985E23BAC8CB0076BD02 /* Assets.xcassets */; };
 		53EA736123E0A5E20065738F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5304985B23BAC8C40076BD02 /* Main.storyboard */; };
-		53EA736323E0A5E20065738F /* ContentInsightTracker.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53B15D8D23CE3449003CCB6F /* ContentInsightTracker.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,7 +38,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				53B15D8F23CE3449003CCB6F /* ContentInsightTracker.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,7 +48,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				53EA736323E0A5E20065738F /* ContentInsightTracker.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,9 +63,11 @@
 		5304985E23BAC8CB0076BD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5304986123BAC8CB0076BD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5304986323BAC8CB0076BD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5321C4AB2456E93200178833 /* Article3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article3TableViewController.swift; sourceTree = "<group>"; };
+		5321C4AE2456ECB500178833 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		5321C4B7245770B500178833 /* ContentInsightTracker.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ContentInsightTracker.xcframework; sourceTree = "<group>"; };
 		5357F3E923CDD578004DB18D /* Article1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article1ViewController.swift; sourceTree = "<group>"; };
 		53B15D8B23CE2A62003CCB6F /* Article2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article2ViewController.swift; sourceTree = "<group>"; };
-		53B15D8D23CE3449003CCB6F /* ContentInsightTracker.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ContentInsightTracker.xcframework; sourceTree = "<group>"; };
 		53EA736723E0A5E20065738F /* CISDKDemoApp ADHock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CISDKDemoApp ADHock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EA736823E0A5E30065738F /* CISDKDemoApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CISDKDemoApp copy-Info.plist"; path = "/Users/goran/Xcode Projects/Developer/Moji Klijenti/Content Insights/CI 2020/CIDemoApp2020 For SDK 1.1/CISDKDemoApp/CISDKDemoApp copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -75,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53B15D8E23CE3449003CCB6F /* ContentInsightTracker.xcframework in Frameworks */,
+				5321C4B8245770B500178833 /* ContentInsightTracker.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53EA735D23E0A5E20065738F /* ContentInsightTracker.xcframework in Frameworks */,
+				5321C4B9245770B500178833 /* ContentInsightTracker.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +119,8 @@
 				5304985923BAC8C40076BD02 /* ViewController.swift */,
 				5357F3E923CDD578004DB18D /* Article1ViewController.swift */,
 				53B15D8B23CE2A62003CCB6F /* Article2ViewController.swift */,
+				5321C4AB2456E93200178833 /* Article3TableViewController.swift */,
+				5321C4AE2456ECB500178833 /* MyTableViewCell.swift */,
 				5304985B23BAC8C40076BD02 /* Main.storyboard */,
 				5304985E23BAC8CB0076BD02 /* Assets.xcassets */,
 				5304986023BAC8CB0076BD02 /* LaunchScreen.storyboard */,
@@ -128,7 +132,7 @@
 		53D5187C23CCE6CC00636ACA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53B15D8D23CE3449003CCB6F /* ContentInsightTracker.xcframework */,
+				5321C4B7245770B500178833 /* ContentInsightTracker.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -234,6 +238,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5321C4AF2456ECB500178833 /* MyTableViewCell.swift in Sources */,
+				5321C4AC2456E93200178833 /* Article3TableViewController.swift in Sources */,
 				53B15D8C23CE2A62003CCB6F /* Article2ViewController.swift in Sources */,
 				5304985A23BAC8C40076BD02 /* ViewController.swift in Sources */,
 				5304985623BAC8C40076BD02 /* AppDelegate.swift in Sources */,
@@ -246,6 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5321C4B02456ECB500178833 /* MyTableViewCell.swift in Sources */,
+				5321C4AD2456E93200178833 /* Article3TableViewController.swift in Sources */,
 				53EA735723E0A5E20065738F /* Article2ViewController.swift in Sources */,
 				53EA735823E0A5E20065738F /* ViewController.swift in Sources */,
 				53EA735923E0A5E20065738F /* AppDelegate.swift in Sources */,
@@ -395,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = Z3G4S27483;
 				INFOPLIST_FILE = CISDKDemoApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -402,6 +411,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = gg.CIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -414,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = Z3G4S27483;
 				INFOPLIST_FILE = CISDKDemoApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -421,6 +432,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = gg.CIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -434,6 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = Z3G4S27483;
 				INFOPLIST_FILE = "CISDKDemoApp copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -441,6 +454,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Goran-Gasic.Content-Inisgts-SDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = ContentIsightsExampleAdHock;
@@ -455,6 +469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = Z3G4S27483;
 				INFOPLIST_FILE = "CISDKDemoApp copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -462,6 +477,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Goran-Gasic.Content-Inisgts-SDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = ContentIsightsExampleAdHock;

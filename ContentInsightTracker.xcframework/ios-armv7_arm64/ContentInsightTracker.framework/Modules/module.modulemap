@@ -1,0 +1,11 @@
+framework module ContentInsightTracker {
+  umbrella header "ContentInsightTracker.h"
+
+  export *
+  module * { export * }
+}
+
+module ContentInsightTracker.Swift {
+    header "ContentInsightTracker-Swift.h"
+    requires objc
+}
