@@ -10,7 +10,7 @@ import UIKit
 
 class Article1ViewController: UIViewController {
 
-    let delegate = UIApplication.shared.delegate as! AppDelegate
+    private let delegate = UIApplication.shared.delegate as! AppDelegate
     @IBOutlet weak var textView: UITextView!
     
     

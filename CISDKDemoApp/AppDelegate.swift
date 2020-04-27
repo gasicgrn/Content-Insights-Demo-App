@@ -23,12 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        // CI Default Initialization to server (config: .toCIServer, domainID: "?? - domainID", isLog: false)
-//        self.contentInsights = ContentInsights.shared(domainID: "?? - domainID")
-        // CI Initialization to server
-        self.contentInsights = ContentInsights.shared(config: .toCIServer, domainID: "?? - domainID", isLog: true)
-        // CI Initialization to local host
-//        self.contentInsights = ContentInsights.shared(config: .toLocalHost, domainID: "?? - domainID", isLog: false)
+        // CI Initialization
+        self.contentInsights = ContentInsights.shared(domainID: "?? - domainID")
 
         return true
     }
