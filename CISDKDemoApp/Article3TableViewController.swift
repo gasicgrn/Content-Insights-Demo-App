@@ -12,22 +12,21 @@ class Article3TableViewController: UITableViewController {
     let delegate = UIApplication.shared.delegate as! AppDelegate
    
     override func viewDidAppear(_ animated: Bool) {
-           super.viewDidAppear(animated)
-           // CI start tracking
-           delegate.contentInsights.startTracking(
-               referUrl: "",
-               articleURL: "https://xxxx.yy/article2",
-               postID: "?? - postID2",
-               contentView: tableView!
-           )
-       }
+        super.viewDidAppear(animated)
+        // CI start tracking
+        delegate.contentInsights.startTracking(
+           referUrl: "",
+           articleURL: "https://xxxx.yy/article2",
+           postID: "?? - postID2",
+           contentView: tableView!)
+    }
        
 
-       override func viewDidDisappear(_ animated: Bool) {
-           super.viewDidDisappear(animated)
-           // CI stop tracking
-           delegate.contentInsights.stopTracking()
-       }
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        // CI stop tracking
+        delegate.contentInsights.stopTracking()
+    }
     
     
     override func viewDidLoad() {
@@ -48,13 +47,17 @@ class Article3TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-      return 40
+        return 40
     }
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-      let view = UIView(frame: CGRect(x: 0, y: 0, width: tableView.bounds.width, height: 40))
-        view.backgroundColor = .green
-      return view
+        let myView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.bounds.width, height: 40))
+        let myLabel = UILabel(frame: myView.bounds)
+        myLabel.text = "SECTION"
+        myLabel.textAlignment = .center
+        myView.backgroundColor = .green
+        myView.addSubview(myLabel)
+        return myView
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -69,8 +72,6 @@ class Article3TableViewController: UITableViewController {
         cell.lbl2Lbl.text = "up right"
         cell.lbl3Lbl.text = "down left"
         cell.lbl4Lbl.text = "down right"
-        
-
         return cell
     }
     
