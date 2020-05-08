@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ContentInsightTracker-Swift.h</key>
 		<data>
-		LP8oAxI59fc5Ur2pmLv3ofhHBZI=
+		lexVaVx4yxGPFvunqkeJOoW/cjE=
 		</data>
 		<key>Headers/ContentInsightTracker.h</key>
 		<data>
@@ -14,55 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sOk+MALjeLzbll5P3ZA+aBdLAdY=
+		RAHxHKmdbNlciYC7zgTRF6FFLWU=
 		</data>
 		<key>Modules/ContentInsightTracker.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fpZrRZ6cx/elD2Kni+peDdpEKeU=
+		g8bR/5JIgZ7wEIRxp3bMQptuFwM=
 		</data>
 		<key>Modules/ContentInsightTracker.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		iPCmFI1AKGnAadeOJfDSSi/qQu4=
+		7ooYfdeBU8N7seCUq+/c+s8htuM=
 		</data>
 		<key>Modules/ContentInsightTracker.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gPVr+0jZLj1XW6EoPTQ0twFcGc4=
+		4iV5J8KBqj1Pq7JEejG+ha583Ig=
 		</data>
 		<key>Modules/ContentInsightTracker.swiftmodule/i386.swiftdoc</key>
 		<data>
-		fpZrRZ6cx/elD2Kni+peDdpEKeU=
+		g8bR/5JIgZ7wEIRxp3bMQptuFwM=
 		</data>
 		<key>Modules/ContentInsightTracker.swiftmodule/i386.swiftinterface</key>
 		<data>
-		iPCmFI1AKGnAadeOJfDSSi/qQu4=
+		7ooYfdeBU8N7seCUq+/c+s8htuM=
 		</data>
 		<key>Modules/ContentInsightTracker.swiftmodule/i386.swiftmodule</key>
 		<data>
-		gPVr+0jZLj1XW6EoPTQ0twFcGc4=
+		4iV5J8KBqj1Pq7JEejG+ha583Ig=
 		</data>
 		<key>Modules/ContentInsightTracker.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Hhu9UN7nGZMoV3GNRlh/tda/yJk=
+		mgqZkYYxEE4whyWqIZIWf2TM9BQ=
 		</data>
 		<key>Modules/ContentInsightTracker.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dMfPS10FyKetN5l3vIvFFM1jG0A=
+		T11dIfzjoEr7ChwGreI3NYZCJOc=
 		</data>
 		<key>Modules/ContentInsightTracker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xuuzRkjtksFHP7HgVO8COtW9O0A=
+		5F3OmO3E50+mNI4VwvdwLBIR99k=
 		</data>
 		<key>Modules/ContentInsightTracker.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Hhu9UN7nGZMoV3GNRlh/tda/yJk=
+		mgqZkYYxEE4whyWqIZIWf2TM9BQ=
 		</data>
 		<key>Modules/ContentInsightTracker.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		dMfPS10FyKetN5l3vIvFFM1jG0A=
+		T11dIfzjoEr7ChwGreI3NYZCJOc=
 		</data>
 		<key>Modules/ContentInsightTracker.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		xuuzRkjtksFHP7HgVO8COtW9O0A=
+		5F3OmO3E50+mNI4VwvdwLBIR99k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,11 +75,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LP8oAxI59fc5Ur2pmLv3ofhHBZI=
+			lexVaVx4yxGPFvunqkeJOoW/cjE=
 			</data>
 			<key>hash2</key>
 			<data>
-			jAv7/IWDWO9yWtUS5MM6JlSx75GgMzcwLre7cURcZXM=
+			vgjgqYfKv8QDZJ7KDzJwbGefzNAD8H3mR78Ukstdl1w=
 			</data>
 		</dict>
 		<key>Headers/ContentInsightTracker.h</key>
@@ -97,132 +97,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fpZrRZ6cx/elD2Kni+peDdpEKeU=
+			g8bR/5JIgZ7wEIRxp3bMQptuFwM=
 			</data>
 			<key>hash2</key>
 			<data>
-			l7sYOQ56hhVEOIzEJsadFeP0O/bidBsj7qOJkEmR4a4=
+			X+MU1pD9mms6qWcXgKyCNqDlAQslSqIZozRTjhZtOhI=
 			</data>
 		</dict>
 		<key>Modules/ContentInsightTracker.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iPCmFI1AKGnAadeOJfDSSi/qQu4=
+			7ooYfdeBU8N7seCUq+/c+s8htuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			LjoVYkxQgLEbnZJlrchRG/TxV4ZSFxqKGsHwnftJUDU=
+			Cvgp/TX6sOIToRMvJuLDfwVC0B8YSZ7E5LztBl9kbGQ=
 			</data>
 		</dict>
 		<key>Modules/ContentInsightTracker.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gPVr+0jZLj1XW6EoPTQ0twFcGc4=
+			4iV5J8KBqj1Pq7JEejG+ha583Ig=
 			</data>
 			<key>hash2</key>
 			<data>
-			sArRYisdYNXHEGfchTeWyTqIATfx0sTlvlRTcY5nbfw=
+			9CGFv1LegiS8JHBSzLiQQxh/YatEsvd+5DZj+TJ7YNc=
 			</data>
 		</dict>
 		<key>Modules/ContentInsightTracker.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fpZrRZ6cx/elD2Kni+peDdpEKeU=
+			g8bR/5JIgZ7wEIRxp3bMQptuFwM=
 			</data>
 			<key>hash2</key>
 			<data>
-			l7sYOQ56hhVEOIzEJsadFeP0O/bidBsj7qOJkEmR4a4=
+			X+MU1pD9mms6qWcXgKyCNqDlAQslSqIZozRTjhZtOhI=
 			</data>
 		</dict>
 		<key>Modules/ContentInsightTracker.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iPCmFI1AKGnAadeOJfDSSi/qQu4=
+			7ooYfdeBU8N7seCUq+/c+s8htuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			LjoVYkxQgLEbnZJlrchRG/TxV4ZSFxqKGsHwnftJUDU=
+			Cvgp/TX6sOIToRMvJuLDfwVC0B8YSZ7E5LztBl9kbGQ=
 			</data>
 		</dict>
 		<key>Modules/ContentInsightTracker.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gPVr+0jZLj1XW6EoPTQ0twFcGc4=
+			4iV5J8KBqj1Pq7JEejG+ha583Ig=
 			</data>
 			<key>hash2</key>
 			<data>
-			sArRYisdYNXHEGfchTeWyTqIATfx0sTlvlRTcY5nbfw=
+			9CGFv1LegiS8JHBSzLiQQxh/YatEsvd+5DZj+TJ7YNc=
 			</data>
 		</dict>
 		<key>Modules/ContentInsightTracker.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Hhu9UN7nGZMoV3GNRlh/tda/yJk=
+			mgqZkYYxEE4whyWqIZIWf2TM9BQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			uwztAwKZKF6iEeVXvX2KhQeg2mvOtD4COwajF+fsxc0=
+			wkmNtVYQvSiu+Yh51NTt7p7TmznDZDo6w1osfykaXLw=
 			</data>
 		</dict>
 		<key>Modules/ContentInsightTracker.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dMfPS10FyKetN5l3vIvFFM1jG0A=
+			T11dIfzjoEr7ChwGreI3NYZCJOc=
 			</data>
 			<key>hash2</key>
 			<data>
-			3dKSCYo9dXr3tUj7Bu951ffmYwWhMC8AUKIcFIrGcZM=
+			Z1GlIIjGFzz7QC5Ae9xa2XJvF+YvhP+nDjlhAaXXzHM=
 			</data>
 		</dict>
 		<key>Modules/ContentInsightTracker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xuuzRkjtksFHP7HgVO8COtW9O0A=
+			5F3OmO3E50+mNI4VwvdwLBIR99k=
 			</data>
 			<key>hash2</key>
 			<data>
-			GRlAiyMmYsNFiF2vJgGEKlA/qKOQJtEydnEXcWn2/AI=
+			JDORYFHL/QO7uFwg+yAKSNkhSXMBI8AM/D9PaxYXG9o=
 			</data>
 		</dict>
 		<key>Modules/ContentInsightTracker.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Hhu9UN7nGZMoV3GNRlh/tda/yJk=
+			mgqZkYYxEE4whyWqIZIWf2TM9BQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			uwztAwKZKF6iEeVXvX2KhQeg2mvOtD4COwajF+fsxc0=
+			wkmNtVYQvSiu+Yh51NTt7p7TmznDZDo6w1osfykaXLw=
 			</data>
 		</dict>
 		<key>Modules/ContentInsightTracker.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dMfPS10FyKetN5l3vIvFFM1jG0A=
+			T11dIfzjoEr7ChwGreI3NYZCJOc=
 			</data>
 			<key>hash2</key>
 			<data>
-			3dKSCYo9dXr3tUj7Bu951ffmYwWhMC8AUKIcFIrGcZM=
+			Z1GlIIjGFzz7QC5Ae9xa2XJvF+YvhP+nDjlhAaXXzHM=
 			</data>
 		</dict>
 		<key>Modules/ContentInsightTracker.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xuuzRkjtksFHP7HgVO8COtW9O0A=
+			5F3OmO3E50+mNI4VwvdwLBIR99k=
 			</data>
 			<key>hash2</key>
 			<data>
-			GRlAiyMmYsNFiF2vJgGEKlA/qKOQJtEydnEXcWn2/AI=
+			JDORYFHL/QO7uFwg+yAKSNkhSXMBI8AM/D9PaxYXG9o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -17,10 +17,12 @@
 		5321C4AD2456E93200178833 /* Article3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321C4AB2456E93200178833 /* Article3TableViewController.swift */; };
 		5321C4AF2456ECB500178833 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321C4AE2456ECB500178833 /* MyTableViewCell.swift */; };
 		5321C4B02456ECB500178833 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321C4AE2456ECB500178833 /* MyTableViewCell.swift */; };
-		5321C4B8245770B500178833 /* ContentInsightTracker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5321C4B7245770B500178833 /* ContentInsightTracker.xcframework */; };
-		5321C4B9245770B500178833 /* ContentInsightTracker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5321C4B7245770B500178833 /* ContentInsightTracker.xcframework */; };
 		5357F3EA23CDD578004DB18D /* Article1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357F3E923CDD578004DB18D /* Article1ViewController.swift */; };
 		53B15D8C23CE2A62003CCB6F /* Article2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B15D8B23CE2A62003CCB6F /* Article2ViewController.swift */; };
+		53C36159245CF1FC0057ED4F /* ContentInsightTracker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C36156245CF1420057ED4F /* ContentInsightTracker.xcframework */; };
+		53C3615A245CF1FC0057ED4F /* ContentInsightTracker.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53C36156245CF1420057ED4F /* ContentInsightTracker.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		53C3615B245CF3CA0057ED4F /* ContentInsightTracker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C36156245CF1420057ED4F /* ContentInsightTracker.xcframework */; };
+		53C3615C245CF3CA0057ED4F /* ContentInsightTracker.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53C36156245CF1420057ED4F /* ContentInsightTracker.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		53EA735723E0A5E20065738F /* Article2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B15D8B23CE2A62003CCB6F /* Article2ViewController.swift */; };
 		53EA735823E0A5E20065738F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5304985923BAC8C40076BD02 /* ViewController.swift */; };
 		53EA735923E0A5E20065738F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5304985523BAC8C40076BD02 /* AppDelegate.swift */; };
@@ -38,6 +40,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				53C3615C245CF3CA0057ED4F /* ContentInsightTracker.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +51,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				53C3615A245CF1FC0057ED4F /* ContentInsightTracker.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,9 +69,9 @@
 		5304986323BAC8CB0076BD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5321C4AB2456E93200178833 /* Article3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article3TableViewController.swift; sourceTree = "<group>"; };
 		5321C4AE2456ECB500178833 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
-		5321C4B7245770B500178833 /* ContentInsightTracker.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ContentInsightTracker.xcframework; sourceTree = "<group>"; };
 		5357F3E923CDD578004DB18D /* Article1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article1ViewController.swift; sourceTree = "<group>"; };
 		53B15D8B23CE2A62003CCB6F /* Article2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article2ViewController.swift; sourceTree = "<group>"; };
+		53C36156245CF1420057ED4F /* ContentInsightTracker.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ContentInsightTracker.xcframework; sourceTree = "<group>"; };
 		53EA736723E0A5E20065738F /* CISDKDemoApp ADHock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CISDKDemoApp ADHock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EA736823E0A5E30065738F /* CISDKDemoApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CISDKDemoApp copy-Info.plist"; path = "/Users/goran/Xcode Projects/Developer/Moji Klijenti/Content Insights/CI 2020/CIDemoApp2020 For SDK 1.1/CISDKDemoApp/CISDKDemoApp copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -77,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5321C4B8245770B500178833 /* ContentInsightTracker.xcframework in Frameworks */,
+				53C3615B245CF3CA0057ED4F /* ContentInsightTracker.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5321C4B9245770B500178833 /* ContentInsightTracker.xcframework in Frameworks */,
+				53C36159245CF1FC0057ED4F /* ContentInsightTracker.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +136,7 @@
 		53D5187C23CCE6CC00636ACA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5321C4B7245770B500178833 /* ContentInsightTracker.xcframework */,
+				53C36156245CF1420057ED4F /* ContentInsightTracker.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
